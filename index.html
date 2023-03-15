@@ -12,6 +12,7 @@
 <body>
     <div class="container">
         <div class="sidebar">
+            <img id="logo" src="../images/sidebar-icons/view-dashboard.svg" alt="Logo" width="40px">
             <h1>Dashboard</h1>
             <ul class="nav">
                 <li>Home</li>
@@ -21,25 +22,46 @@
                 <li>Tasks</li>
                 <li>Communications</li>
             </ul>
+            <ul class="sidebar-images navigation">
+                <li><img src="../images/sidebar-icons/home.svg" alt="home"></li>
+                <li><img src="../images/sidebar-icons/profile.svg" alt="home"></li>
+                <li><img src="../images/sidebar-icons/message.svg" alt="home"></li>
+                <li><img src="../images/sidebar-icons/history.svg" alt="home"></li>
+                <li><img src="../images/sidebar-icons/tasks.svg" alt="home"></li>
+                <li><img src="../images/sidebar-icons/communities.svg" alt="home"></li>
+            </ul>
             <ul class="help">
                 <li>Settings</li>
                 <li>Support</li>
                 <li>Privacy</li>
             </ul>
+            <ul class="sidebar-images help">
+                <li><img src="../images/sidebar-icons/settings.svg" alt="settings"></li>
+                <li><img src="../images/sidebar-icons/support.svg" alt="support"></li>
+                <li><img src="../images/sidebar-icons/privacy.svg" alt="privacy"></li>
+            </ul>
         </div>
         <div class="header">
             <div class="search">
-                <div id="s-icon">search<br>icon</div>
+                <div id="s-icon">
+                    <img src="../images/header-icons/magnify.svg" alt="search" width="25px">
+                </div>
                 <input type="text">
                 <div class="right-side">
-                    <button id="notification">img</button>
-                    <div class="p-img">profile<br> img</div>
+                    <button id="notification">
+                        <img src="../images/header-icons/bell-ring.svg" alt="notifications" width="25px">
+                    </button>
+                    <div class="p-img">
+                        <img src="../images/profile-photos/cat.jpg" alt="profile photo" width="60px">
+                    </div>
                     <div class="name">Abigail Ajamian</div>
                 </div>
 
             </div>
             <div class="top-nav">
-                <div class="profile-img">p img</div>
+                <div class="profile-img">
+                    <img src="../images/profile-photos/cat.jpg" alt="profile photo" width="60px">
+                </div>
                 <p>Hi there,</p>
                 <h1>Abigail Ajamian (@abigail)</h1>
                 <div class="btns">
@@ -55,13 +77,21 @@
                 <div class="cards">
                     <div class="one">
                         <p class="heading">Super Cool Project</p>
-                        <p class="details">Sed tempus ut lacus ut scelerisque.<br>Suspendisse sollicitudin nibh erat,
-                            id<br>
+                        <p class="details">Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat,
+                            id
                             facilisis felis accumsan nec.
                         </p>
-                        <button class="star-icon">img</button>
-                        <button class="eye-icon">img</button>
-                        <button class="share-icon">img</button>
+                        <button class="star-icon">
+                            <img src="../images/project-buttons/star-plus-outline.svg" alt="like button" width="20px">
+                        </button>
+                        <button class="eye-icon">
+                            <img src="../images/project-buttons/eye-plus-outline.svg" alt="eye-plus button"
+                                width="20px">
+                        </button>
+                        <button class="share-icon">
+                            <img src="../images/project-buttons/share-variant-outline.svg" alt="share button"
+                                width="20px">
+                        </button>
                     </div>
                     <div class="two">
                         <p class="heading">Less Cool Project</p>
@@ -70,47 +100,88 @@
                             consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in,
                             varius pellentesque lacus.
                         </p>
-                        <button class="star-icon">img</button>
-                        <button class="eye-icon">img</button>
-                        <button class="share-icon">img</button>
+                        <button class="star-icon">
+                            <img src="../images/project-buttons/star-plus-outline.svg" alt="like button" width="20px">
+                        </button>
+                        <button class="eye-icon">
+                            <img src="../images/project-buttons/eye-plus-outline.svg" alt="eye-plus button"
+                                width="20px">
+                        </button>
+                        <button class="share-icon">
+                            <img src="../images/project-buttons/share-variant-outline.svg" alt="share button"
+                                width="20px">
+                        </button>
                     </div>
                     <div class="three">
                         <p class="heading">Impossible App</p>
-                        <p class="details">In hac habitasse platea ductumst. Vivamus<br>dictum rutrum arcu,a placerat
-                            velit saggittis<br>id.
+                        <p class="details">In hac habitasse platea ductumst. Vivamus dictum rutrum arcu,a placerat
+                            velit saggittis id.
                         </p>
-                        <button class="star-icon">img</button>
-                        <button class="eye-icon">img</button>
-                        <button class="share-icon">img</button>
+                        <button class="star-icon">
+                            <img src="../images/project-buttons/star-plus-outline.svg" alt="like button" width="20px">
+                        </button>
+                        <button class="eye-icon">
+                            <img src="../images/project-buttons/eye-plus-outline.svg" alt="eye-plus button"
+                                width="20px">
+                        </button>
+                        <button class="share-icon">
+                            <img src="../images/project-buttons/share-variant-outline.svg" alt="share button"
+                                width="20px">
+                        </button>
                     </div>
                     <div class="four">
                         <p class="heading">Easy Peasy App</p>
-                        <p class="details">Etiam cursus eros ac fringilla.<br>Vestibulum dignissim urna eget
-                            accumsan<br>
-                            aliquam. Curabitur dignissim nisi in tortor<br>commodo, ac bibendum magna tincidunt.</p>
-                        <button class="star-icon">img</button>
-                        <button class="eye-icon">img</button>
-                        <button class="share-icon">img</button>
+                        <p class="details">Etiam cursus eros ac fringilla.Vestibulum dignissim urna eget
+                            accumsan
+                            aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                        <button class="star-icon">
+                            <img src="../images/project-buttons/star-plus-outline.svg" alt="like button" width="20px">
+                        </button>
+                        <button class="eye-icon">
+                            <img src="../images/project-buttons/eye-plus-outline.svg" alt="eye-plus button"
+                                width="20px">
+
+                        </button>
+                        <button class="share-icon">
+                            <img src="../images/project-buttons/share-variant-outline.svg" alt="share button"
+                                width="20px">
+                        </button>
                     </div>
                     <div class="five">
                         <p class="heading">Ad Blocker</p>
-                        <p class="details">Quisque eget rutrum nisl. Nam augue<br>justo, cursus vitae metus vel,
-                            pharetra<br>
-                            hendrerit felis. Aliquam sed malesuada <br> eros.
+                        <p class="details">Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
+                            pharetra
+                            hendrerit felis. Aliquam sed malesuada eros.
                         </p>
-                        <button class="star-icon">img</button>
-                        <button class="eye-icon">img</button>
-                        <button class="share-icon">img</button>
+                        <button class="star-icon">
+                            <img src="../images/project-buttons/star-plus-outline.svg" alt="like button" width="20px">
+                        </button>
+                        <button class="eye-icon">
+                            <img src="../images/project-buttons/eye-plus-outline.svg" alt="eye-plus button"
+                                width="20px">
+                        </button>
+                        <button class="share-icon">
+                            <img src="../images/project-buttons/share-variant-outline.svg" alt="share button"
+                                width="20px">
+                        </button>
                     </div>
                     <div class="six">
                         <p class="heading">Money Maker</p>
                         <p class="details">
-                            Praesent convallis, libero quis congue <br>elementum, nunc ante faucibus sapien, ac<br>
-                            scaelerisque tortor purus sit amet ex.<br>Pallentesque mollis nec sem vel aliquam.
+                            Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac
+                            scaelerisque tortor purus sit amet ex.Pallentesque mollis nec sem vel aliquam.
                         </p>
-                        <button class="star-icon">img</button>
-                        <button class="eye-icon">img</button>
-                        <button class="share-icon">img</button>
+                        <button class="star-icon">
+                            <img src="../images/project-buttons/star-plus-outline.svg" alt="like button" width="20px">
+                        </button>
+                        <button class="eye-icon">
+                            <img src="../images/project-buttons/eye-plus-outline.svg" alt="eye-plus button"
+                                width="20px">
+                        </button>
+                        <button class="share-icon">
+                            <img src="../images/project-buttons/share-variant-outline.svg" alt="share button"
+                                width="20px">
+                        </button>
                     </div>
                 </div>
             </div>
@@ -137,19 +208,27 @@
             <div class="trending">
                 <h1>Trending</h1>
                 <div class="card-2">
-                    <div class="person-1">img</div>
+                    <div class="person-1">
+                        <img src="../images/profile-photos/chicken.jpg" alt="profile photo" width="50px">
+                    </div>
                     <p class="p1">@tegan</p>
                     <p class="p1-details">World peace Builder</p>
 
-                    <div class="person-2">img</div>
+                    <div class="person-2">
+                        <img src="../images/profile-photos/cat.jpg" alt="profile photo" width="50px">
+                    </div>
                     <p class="p2">@abigail</p>
                     <p class="p2-details">Super Cool Project</p>
 
-                    <div class="person-3">img</div>
+                    <div class="person-3">
+                        <img src="../images/profile-photos/bear.jpg" alt="profile photo" width="50px">
+                    </div>
                     <p class="p3">@kendall</p>
                     <p class="p3-details">Life Changing App</p>
 
-                    <div class="person-4">img</div>
+                    <div class="person-4">
+                        <img src="../images/profile-photos/penguin.jpg" alt="profile photo" width="50px">
+                    </div>
                     <p class="p4">@alex</p>
                     <p class="p4-details">No Traffic Maker</p>
                 </div>
